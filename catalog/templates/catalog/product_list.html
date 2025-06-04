@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>محصولات</title>
+</head>
+<body>
+    <h1>لیست محصولات</h1>
+    <ul>
+        {% for product in products %}
+            <li>
+                <strong>{{ product.name }}</strong> - {{ product.price }} تومان
+                {% if product.is_featured %}
+                    <span style="color: red;"> (پیشنهاد ویژه)</span>
+                {% endif %}
+            </li>
+        {% empty %}
+            <li>هیچ محصولی یافت نشد.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
