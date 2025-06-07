@@ -3,5 +3,6 @@ from . import views
 
 urlpatterns = [
     #custom catalog urls
-    path('', views.product_list, name='product_list'),
+    path('', views.home, name='home'),
+    path('vitrin/', views.product_list, name='product_list'),
 ]
