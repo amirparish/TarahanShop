@@ -1,0 +1,169 @@
+@font-face {
+  font-family: tarahan;
+  src: url(fonts/Vazir-Regular.woff);
+}
+
+@font-face {
+  font-family: tarahanBold;
+  src: url(fonts/Vazir-Bold.woff);
+}
+
+body{
+/*  background-color: #3b3b3b;*/
+  font-family: tarahan;
+}
+
+a{
+  font-family: tarahan;
+}
+
+/*.navbar{
+  background-color: #1d5675!important;
+}*/
+
+.navbar a{
+  color: #1D5675;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.navbar a:hover{
+  color: #eda900;
+  border-bottom: 2px solid #1d5675;
+  background-color: #eeeeee;
+}
+
+.navbar-brand:hover{
+  border: none !important;
+  background-color: #fbfbfb !important;
+}
+
+.dropdown-item {
+  margin: 0px !important;
+}
+
+nav .active{
+  color: #eda900 !important;
+  border-bottom: 2px solid #1d5675;
+  background-color: #eeeeee;
+}
+
+/*.navbar a i{
+  color: #fff;
+}
+
+.navbar a i:hover{
+  color: #eda900;
+}*/
+
+nav form button{
+  color: #eda900 !important;
+}
+
+nav form button:hover{
+  color: #1d5675 !important;
+}
+
+.search-btn{
+  margin-right: 5px !important;
+  border-radius: 5px !important;
+}
+
+.carousel-box{
+  margin-top: 10px;
+}
+
+.carousel-inner{
+  border-radius: 10px !important;
+}
+
+.pop-box{
+/*  background-image: url(../img/dg-pattern01-sm.png);*/
+  background-color: #1d5675;
+  min-height: 450px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pop-box .card{
+  margin-top: 10px;
+}
+
+.pop-pro-txt{
+  overflow: hidden;
+}
+
+.pop-pro-txt img{
+  width: 100%;
+  margin-top: 80px;
+}
+
+.blog-thumbnail{
+  color: #1d5675 !important;
+}
+
+.blog-box{
+  background-image: url(../img/dg-pattern01-sm.png);
+}
+
+.blog-box h2{
+  color: #eda900 !important;
+  -webkit-text-stroke: 0.05em #1d5675;
+  font-family: 'tarahanBold';
+}
+
+.blog-box .container{
+  padding-top: 10px;
+}
+
+footer{
+  background-color: #1d5675 !important;
+  color: #fff;
+}
+
+.f-a-color{
+  color: #fff !important;
+}
+
+.f-a-color:hover{
+  color: red !important;
+}
+
+.titr-footer{
+  color: #eda900 !important;
+}
+
+.blog-box h2{
+  color: #eda900;
+}
+
+.blog-box .card{
+  margin-bottom: 10px;
+}
+
+.product-cat-box{
+  padding: 5px;
+  border: 2px solid silver;
+  border-radius: 5px;
+}
+
+.p-c-style a{
+  color: #1d5675 !important;
+  width: 100%;
+}
+
+.p-c-style{
+  height: 40px;
+  padding: 5px;
+  border-right: 2px solid #eda900;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.p-c-style:hover {
+  background-color: #eda90061;
+}
+
+.mr-t-10{
+  margin-top: 10px !important;
+}
